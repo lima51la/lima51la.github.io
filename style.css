@@ -700,10 +700,10 @@ img{
     }
 
     .skills {
-        padding: 30px;
+        padding: 20px;
         display: flex;
         align-items: center;
-        gap: 90px;
+        gap: 20px;
         background: #fff;
 }
 
