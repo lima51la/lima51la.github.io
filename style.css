@@ -678,7 +678,8 @@ img{
     }
 
     .project-card{
-        height: 500px;
+        height: 100%;
+        width: 100%;
     }
 
     .project-card__image{
@@ -692,13 +693,15 @@ img{
     .footer{
         flex-direction: column-reverse;
         gap: 16px;
+        text-align: center;
     }
 
+    .skills{
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        gap: 90px;
+        background: #fff;
+
 }
-
-
-
-
-
-
-
+}
