@@ -636,7 +636,8 @@ img{
     }
 }
 
-@media screen and (max-width: 572px){
+
+@media (max-width: 572px){
     html{
         font-size: 60%;
     }
