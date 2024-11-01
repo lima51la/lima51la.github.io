@@ -630,7 +630,7 @@ img{
 }
 
 
-@media (max-width: 572px){
+@media (max-width: 450px){
 
     .navbar__actions{
         display: none;
