@@ -511,11 +511,8 @@ img{
     font-weight: 500;
 }
 
-@media screen and (max-width: 1200px){
-    .home .homelock {
-        transform: translateX(-50), translateY(65px);
-    }
-
+@media (max-width: 1200px){
+  
     .hero__image{
         width: 100%;
     }
@@ -571,11 +568,7 @@ img{
     }
 }
 
-@media screen and (max-width: 786px){
-    html{
-        font-size:65% ;
-    }
-
+@media (max-width: 786px){
 
     .navbar{
         padding: 20px 30px;
@@ -638,9 +631,6 @@ img{
 
 
 @media (max-width: 572px){
-    html{
-        font-size: 60%;
-    }
 
     .navbar__actions{
         display: none;
