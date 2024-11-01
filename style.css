@@ -509,9 +509,21 @@ img{
     font-size: 13px;
     color: #6b7280;
     font-weight: 500;
+
 }
 
-@media (max-width: 1200px){
+@media(max-width :1200px ){
+    .home .homelock {
+        transform: translateX(-50), translateY(65px);
+    }
+}
+
+
+@media (max-width: 992pxpx){
+    html {
+        font-size: 75%;
+        display: relative;
+    }
   
     .hero__image{
         width: 100%;
@@ -570,6 +582,10 @@ img{
 
 @media (max-width: 786px){
 
+    html {
+        font-size: 65%;
+        display: relative;
+    }
     .navbar{
         padding: 20px 30px;
     }
@@ -630,7 +646,11 @@ img{
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 572px){
+    html {
+        font-size: 60%;
+        display: relative;
+    }
 
     .navbar__actions{
         display: none;
