@@ -213,6 +213,12 @@ img{
     margin-bottom: 10px;
 }
 
+.showcase__header {
+    font-size: 500px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
 .skills_descripstion p{
     color: #6b7280;
     font-size: 14px;
@@ -672,12 +678,11 @@ img{
         margin-top: 10px;
     }
 
-    .showcase__header h3{
-        font-size: 24px;
-    }
 
     .category__title h4{
         font-size: 20px;
+        position: sticky left;
+        text-align: left;
     }
 
     .project-card{
@@ -712,4 +717,14 @@ img{
         flex-direction: column;
         size-adjust: 10%;
     }
+
+    .category__desc p{
+        font-display: text-end ;
+    }
+
+    .showcase_tittle {
+        text-align: left !important;
+        text-size-adjust: 100px;
+    }
+
 }
