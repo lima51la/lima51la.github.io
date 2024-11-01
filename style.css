@@ -699,12 +699,17 @@ img{
         text-align: center;
     }
 
-    .skills{
+    .skills {
         padding: 30px;
         display: flex;
         align-items: center;
         gap: 90px;
         background: #fff;
-
 }
+
+    .skills__stats{
+        align-items: center;
+        flex-direction: column;
+        size-adjust: 10%;
+    }
 }
